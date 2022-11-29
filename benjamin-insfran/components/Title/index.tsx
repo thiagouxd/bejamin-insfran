@@ -8,7 +8,16 @@ type TitleProps = {
 
 const Title = ({ children, tag = "h1" }: TitleProps) => {
   const CustomTag = tag;
-  return <CustomTag className={s.title}>{children}</CustomTag>;
+  const sizeModifier = () => {
+    if (tag === "h1") return s.large;
+    if (tag === "h2") return s.medium;
+    if (tag === "h3") return s.small;
+    if (tag === "h4") return s.xsmall;
+  };
+
+  return (
+    <CustomTag className={`${s.title} ${sizeModifier()}`}>{children}</CustomTag>
+  );
 };
 
 export default Title;
