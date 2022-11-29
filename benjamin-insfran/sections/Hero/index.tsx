@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../../components/Button";
 import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
 import s from "./styles.module.scss";
@@ -26,7 +27,7 @@ const Hero = () => {
         </div>
 
         <Link href="/#ranking">
-          <button>Ranking in values</button>
+          <Button>Ranking in values</Button>
         </Link>
       </div>
 
@@ -35,8 +36,8 @@ const Hero = () => {
           src="/hero/benjamin-home.png"
           alt="Benjaming Playing Volley Ball"
           className={s.benjaminPic}
-          layout="fill"
-          objectFit="contain"
+          width={100}
+          height={100}
         />
       </div>
     </section>

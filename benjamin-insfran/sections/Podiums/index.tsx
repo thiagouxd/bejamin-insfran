@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "../../components/Button";
 import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
 import s from "./styles.module.scss";
@@ -13,7 +14,7 @@ const Podiums = () => {
       </Paragraph>
       <div className={s.numbersContainers}></div>
       <Link href="/podiums">
-        <button>See all podiums</button>
+        <Button>See all podiums</Button>
       </Link>
     </section>
   );

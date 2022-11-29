@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../../components/Button";
 import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
 import s from "./style.module.scss";
@@ -15,7 +16,7 @@ const Articles = () => {
         </Paragraph>
         <Image width={100} height={100} src="" alt="photo" />
         <Link href="/articles">
-          <button>See all reports</button>
+          <Button>See all reports</Button>
         </Link>
       </div>
       <div className={s.secondaryContainer}>
