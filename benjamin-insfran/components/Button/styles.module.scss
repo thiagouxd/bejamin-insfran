@@ -1,3 +1,15 @@
 .button {
-  background-color: red;
+  font-family: 'Inter';
+  background-color: #0C112E;
+  border-radius: 16px;
+  padding: 0 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  height: 60px;
+  font-size: 18px;
 }

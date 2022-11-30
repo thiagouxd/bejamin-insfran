@@ -7,17 +7,18 @@ import s from "./styles.module.scss";
 
 const Hero = () => {
   return (
-    <section>
+    <section className={s.section}>
       <div className={s.primaryContainer}>
         <Image
           src="/hero-logo.svg"
           alt="Logo Benjamin"
-          height="130"
-          width="498"
+          height={130}
+          width={498}
+          className={s.logo}
         />
 
-        <div>
-          <Title>Presentation Benjamin</Title>
+        <div className={s.text}>
+          <Title>Who is Benjamin</Title>
           <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Praesentium aliquam fuga quisquam commodi? Amet consequuntur
@@ -36,8 +37,8 @@ const Hero = () => {
           src="/hero/benjamin-home.png"
           alt="Benjaming Playing Volley Ball"
           className={s.benjaminPic}
-          width={100}
-          height={100}
+          width={1096}
+          height={774}
         />
       </div>
     </section>
