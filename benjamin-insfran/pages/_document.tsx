@@ -13,10 +13,10 @@ export default function Document() {
         />
       </Head>
 
-      <Layout>
+      <body>
         <Main />
         <NextScript />
-      </Layout>
+      </body>
     </Html>
   );
 }

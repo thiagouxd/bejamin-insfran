@@ -8,11 +8,11 @@ type LayoutProp = {
 
 const Layout = ({ children }: LayoutProp) => {
   return (
-    <body>
+    <>
       <Header />
       {children}
       <Footer />
-    </body>
+    </>
   );
 };
 
