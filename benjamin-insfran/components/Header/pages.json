@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Podiums",
+    "path": "/podiums"
+  },
+  {
+    "name": "Photo Gallery",
+    "path": "/gallery"
+  },
+  {
+    "name": "Articles and Reports",
+    "path": "/articles"
+  },
+  {
+    "name": "About",
+    "path": "/about"
+  }
+]

@@ -3,6 +3,7 @@ import Button from "../../components/Button";
 import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
 import s from "./styles.module.scss";
+import data from "../../db/numbers.json";
 
 const Podiums = () => {
   return (
@@ -12,7 +13,18 @@ const Podiums = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
         incidunt nesciunt placeat.
       </Paragraph>
-      <div className={s.numbersContainers}></div>
+
+      <div className={s.numbersContainers}>
+        {data.map((item, i) => {
+          return (
+            <div key={"number" + i}>
+              <div>{item.number}</div>
+              <div>{item.text}</div>
+            </div>
+          );
+        })}
+      </div>
+
       <Link href="/podiums">
         <Button>See all podiums</Button>
       </Link>
