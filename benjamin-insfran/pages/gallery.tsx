@@ -1,4 +1,5 @@
 import Title from "../components/Title";
+import YoutubePlayer from "../components/YoutubePlayer";
 
 const Gallery = () => {
   return (
@@ -8,6 +9,9 @@ const Gallery = () => {
 
       <Title tag="h2">Videos</Title>
       <div>Lista de vídeos</div>
+
+      <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
+      <YoutubePlayer codeVideo="3PGfIc6ra2I" />
     </>
   );
 };
