@@ -1,13 +1,14 @@
 import Image from "next/image";
 
-type PropsList =
-  | "olympicPosition"
-  | "gold"
-  | "silver"
-  | "bronze"
-  | "fivbValues";
-
-type Props = Record<PropsList, number> & { name: string; brazilian?: boolean };
+type Props = {
+  name: string;
+  gold?: number;
+  silver?: number;
+  bronze?: number;
+  fivbValues: number;
+  olympicPosition?: string;
+  brazilian?: boolean;
+};
 
 type PropItem = { item: Props };
 
@@ -22,19 +23,25 @@ export const Card = ({ item }: PropItem) => {
         width={24}
       />
       <div>
-        <h3>Philip Dalhausser</h3>
-        <p>Gold: 3 | Silver: 2 | Bronze: 1</p>
+        <h3>{item.name}</h3>
+        <p>
+          {item.gold && `Gold: ${item.gold} `}
+          {item.silver && `| Silver: ${item.silver} `}
+          {item.bronze && `| Bronze: ${item.bronze}`}
+        </p>
       </div>
       <div>
-        <div>
-          <Image
-            src="/ranking/og-logo.png"
-            alt="Olympic Games Logo"
-            height={16}
-            width={33}
-          />
-          Atena - 3º
-        </div>
+        {item.olympicPosition && (
+          <div>
+            <Image
+              src="/ranking/og-logo.png"
+              alt="Olympic Games Logo"
+              height={16}
+              width={33}
+            />
+            {item.olympicPosition}
+          </div>
+        )}
         <p>FIVB Values: $2,686,800</p>
       </div>
     </li>

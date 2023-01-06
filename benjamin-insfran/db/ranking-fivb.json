@@ -4,7 +4,7 @@
     "gold": 37,
     "silver": 16,
     "bronze": 14,
-    "olympicPosition": 0,
+    "olympicPosition": "Atena - 9º",
     "fivbValues": 2686800
   },
   {
@@ -12,7 +12,7 @@
     "gold": 26,
     "silver": 8,
     "bronze": 11,
-    "olympicPosition": 9,
+    "olympicPosition": "Atena - 9º",
     "fivbValues": 1822200
   },
   {
@@ -20,7 +20,7 @@
     "gold": 7,
     "silver": 9,
     "bronze": 8,
-    "olympicPosition": 0,
+    "olympicPosition": "Atena - 9º",
     "fivbValues": 1686375
   },
   {
@@ -28,7 +28,7 @@
     "gold": 13,
     "silver": 10,
     "bronze": 11,
-    "olympicPosition": 9,
+    "olympicPosition": "Atena - 9º",
     "fivbValues": 1408075,
     "brazilian": true
   }
