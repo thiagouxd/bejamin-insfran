@@ -13,22 +13,33 @@ const Hero = () => {
           src="/hero-logo.svg"
           alt="Logo Benjamin"
           height={130}
-          width={498}
+          width={300}
           className={s.logo}
         />
 
         <div className={s.text}>
           <Title>Who is Benjamin</Title>
           <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Praesentium aliquam fuga quisquam commodi? Amet consequuntur
-            consequatur dolores nam natus ad magni quos non laborum! Fugit
-            tempora ad quis earum hic.
+            Benjamin is one of the greatest beach volleyball players of all
+            times. Born in Brazil, he played indoor volleyball in prominent
+            clubs such as Banespa, Suzano and Chapecó until an injury took him
+            to recover on the beach.
+          </Paragraph>
+          <Paragraph>
+            Falling in love with the game, he stayed and played the Brazilian
+            Beach Volleyball National Tournaments and the FIVB Beach Volleyball
+            Tours for more than two decades, having competed for his country in
+            the 2004 Olympic Games, in Athens.
+          </Paragraph>
+          <Paragraph>
+            Benjamin currently lives with his family in Naperville, IL (USA),
+            where he plans to continue his legacy by creating a volleyball club
+            where he will train and coach the future generations of the sport.
           </Paragraph>
         </div>
 
         <Link href="/#ranking">
-          <Button>Ranking in values</Button>
+          <Button>About</Button>
         </Link>
       </div>
 
