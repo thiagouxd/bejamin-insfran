@@ -2,6 +2,15 @@
   background-color: #0C112E;
   display: flex;
   padding: 64px 32px;
+  padding-bottom: 200px;
+  position: relative;
+
+  .button {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 .content {

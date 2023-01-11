@@ -35,6 +35,9 @@ const Articles = () => {
           </ul>
         </div>
       </div>
+      <Link href="/articles" className={s.button}>
+        <Button secondary>See all reports</Button>
+      </Link>
     </section>
   );
 };
