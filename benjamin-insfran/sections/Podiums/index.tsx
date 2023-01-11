@@ -12,17 +12,16 @@ const Podiums = () => {
         Podiums and numbers
       </Title>
 
-      <Paragraph>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        incidunt nesciunt placeat.
-      </Paragraph>
-
       <div className={s.numbersContainers}>
         {data.map((item, i) => {
           return (
-            <div key={"number" + i}>
-              <div>{item.number}</div>
-              <div>{item.text}</div>
+            <div
+              className={s.card}
+              key={"number" + i}
+              style={{ backgroundImage: `url(${item.image})` }}
+            >
+              <h3>{item.number}</h3>
+              <p>{item.text}</p>
             </div>
           );
         })}

@@ -1,26 +1,32 @@
 [
   {
     "text": "Oficial Plays",
-    "number": "1000+"
+    "number": "1000+",
+    "image": "/podiums/plays.jpg"
   },
   {
-    "text": "Golden",
-    "number": "20"
+    "text": "International Goldens",
+    "number": "20",
+    "image": "/podiums/goldens.jpg"
   },
   {
-    "text": "Silver",
-    "number": "10"
+    "text": "International Silvers",
+    "number": "10",
+    "image": "/podiums/silvers.jpg"
   },
   {
-    "text": "Bronze",
-    "number": "10"
+    "text": "International Bronzes",
+    "number": "10",
+    "image": "/podiums/bronzes.jpg"
   },
   {
     "text": "Years of career",
-    "number": "20"
+    "number": "20",
+    "image": "/podiums/years.jpg"
   },
   {
-    "text": "200",
-    "number": "Championships Played"
+    "text": "Championships Played",
+    "number": "200",
+    "image": "/podiums/championships.jpg"
   }
 ]
