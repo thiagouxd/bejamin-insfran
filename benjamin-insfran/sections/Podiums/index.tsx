@@ -7,8 +7,11 @@ import data from "../../db/numbers.json";
 
 const Podiums = () => {
   return (
-    <section>
-      <Title tag="h2">Podiums and numbers</Title>
+    <section className={s.section}>
+      <Title secondary tag="h2">
+        Podiums and numbers
+      </Title>
+
       <Paragraph>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
         incidunt nesciunt placeat.
@@ -26,7 +29,7 @@ const Podiums = () => {
       </div>
 
       <Link href="/podiums">
-        <Button>See all podiums</Button>
+        <Button secondary>See all podiums</Button>
       </Link>
     </section>
   );

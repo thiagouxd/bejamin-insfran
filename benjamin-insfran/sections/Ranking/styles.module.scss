@@ -1,0 +1,28 @@
+.primaryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 16px;
+
+  p {
+    text-align: right;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+}
+
+.cardList {
+  padding: 0 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-height: 580px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  left: -16px;
+}

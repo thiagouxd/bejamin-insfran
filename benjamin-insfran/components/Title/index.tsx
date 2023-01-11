@@ -3,10 +3,11 @@ import s from "./styles.module.scss";
 
 type TitleProps = {
   children: ReactNode;
+  secondary?: boolean;
   tag?: "h1" | "h2" | "h3" | "h4";
 };
 
-const Title = ({ children, tag = "h1" }: TitleProps) => {
+const Title = ({ children, tag = "h1", secondary }: TitleProps) => {
   const CustomTag = tag;
   const sizeModifier = () => {
     if (tag === "h1") return s.large;
@@ -16,7 +17,13 @@ const Title = ({ children, tag = "h1" }: TitleProps) => {
   };
 
   return (
-    <CustomTag className={`${s.title} ${sizeModifier()}`}>{children}</CustomTag>
+    <CustomTag
+      className={`${s.title} ${sizeModifier()} ${
+        secondary && s.title_secondary
+      }`}
+    >
+      {children}
+    </CustomTag>
   );
 };
 

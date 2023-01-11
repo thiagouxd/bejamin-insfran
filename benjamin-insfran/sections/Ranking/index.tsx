@@ -3,11 +3,12 @@ import Title from "../../components/Title";
 import { Card } from "./Card";
 import s from "./styles.module.scss";
 import data from "../../db/ranking-fivb.json";
+import Link from "next/link";
 
 const Ranking = () => {
   return (
     <section>
-      <div>
+      <div className={s.primaryContainer}>
         <Title tag="h2">FIVB Official Ranking</Title>
         <div>
           <Paragraph>
@@ -27,10 +28,18 @@ const Ranking = () => {
       </div>
 
       <ul className={s.cardList}>
-        {data.map((item) => {
-          return <Card key={item.name} item={item} />;
+        {data.map((item, index) => {
+          return <Card key={item.name} item={item} number={index + 1} />;
         })}
       </ul>
+
+      <Link
+        href="https://www.fivb.com/en/beachvolleyball/beachplayersdatabase/102082"
+        target="_blank"
+      >
+        source:
+        https://www.fivb.com/en/beachvolleyball/beachplayersdatabase/102082
+      </Link>
     </section>
   );
 };

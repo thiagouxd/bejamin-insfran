@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 24px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-left: 60px;
+  position: relative;
+  padding: 8px;
+
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flag {
+  margin-right: 8px;
+}
+
+.number {
+  font-size: 54px;
+  font-weight: 700;
+  color: #D8D8D8;
+  position: absolute;
+  left: -48px;
+  z-index: -1;
+  text-align: right;
+  width: 54px;
+}
+
+.medals {
+  color: #737373;
+  font-size: 12px;
+  margin: 0;
+}
+
+.og {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 4px;
+  }
+}
+
+.values {
+  font-size: 12px;
+  margin: 0;
+}
+
+.highlight {
+  background-color: #F4F9F6;
+
+  &::after {
+    content: "";
+    display: flex;
+    width: 2px;
+    height: 42px;
+    background-color: #239E46;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+  }
+}
