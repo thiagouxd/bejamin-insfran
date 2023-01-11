@@ -3,26 +3,37 @@ import Link from "next/link";
 import Button from "../../components/Button";
 import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
-import s from "./style.module.scss";
+import s from "./styles.module.scss";
+import data from "../../db/news.json";
+import { Card } from "./Card";
 
 const Articles = () => {
   return (
-    <section>
-      <div className={s.primaryContainer}>
-        <Title tag="h3">Articles and Reports</Title>
-        <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius
-          libero non quam vulputate, ac tincidunt lectus cursus.
-        </Paragraph>
-        <Image width={100} height={100} src="" alt="photo" />
-        <Link href="/articles">
-          <Button>See all reports</Button>
-        </Link>
-      </div>
-      <div className={s.secondaryContainer}>
-        <ul className={s.reportList}>
-          <li></li>
-        </ul>
+    <section className={s.section}>
+      <div className={s.content}>
+        <div className={s.primaryContainer}>
+          <Title tag="h3">Articles and Reports</Title>
+          <Paragraph>
+            Compilation of some articles and news in which Benjamin`s work is
+            cited during his 20+ years of professional athletic career.
+          </Paragraph>
+
+          <Image width={576} height={640} src="/articles.jpg" alt="photo" />
+        </div>
+
+        <div className={s.secondaryContainer}>
+          <ul className={s.reportList}>
+            {data.map((item, i) => {
+              return <Card key={"news" + i} item={item} />;
+            })}
+            {data.map((item, i) => {
+              return <Card key={"news" + i} item={item} />;
+            })}
+            {data.map((item, i) => {
+              return <Card key={"news" + i} item={item} />;
+            })}
+          </ul>
+        </div>
       </div>
     </section>
   );
