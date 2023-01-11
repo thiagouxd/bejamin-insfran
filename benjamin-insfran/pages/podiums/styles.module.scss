@@ -1,0 +1,50 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    padding: 40px 0;
+  }
+
+  .tableContainer {
+    padding: 24px 0;
+
+    @media (max-width: 1000px) {
+      width: 100vw;
+      overflow-y: auto;
+    }
+  }
+
+  table {
+    width: 100%;
+    min-width: 1000px;
+
+
+    th {
+      padding: 0 40px;
+    }
+
+    tbody tr {
+      box-shadow: 0 1px 0 0 #D9D9D9;
+    }
+
+    td {
+      text-align: center;
+      padding: 10px;
+    }
+
+    tbody tr td {
+      position: relative;
+    }
+  }
+
+}
+
+.icon {
+  position: absolute;
+  left: 16px;
+  top: 6px;
+}
