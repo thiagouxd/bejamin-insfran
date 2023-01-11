@@ -27,16 +27,6 @@ const Podiums = () => {
             </tr>
           </thead>
 
-          {/* "line": 28,
-    "season": 2011,
-    "date": "August 17",
-    "type": "Open",
-    "tournament": "Aland (FI)",
-    "partners": "Marcio Araujo",
-    "points": 300,
-    "rank": 1,
-    "money": 30000 */}
-
           <tbody>
             {data.map((item, i) => {
               return (
