@@ -8,21 +8,31 @@ import s from "./styles.module.scss";
 
 const Awards = () => {
   return (
-    <section>
+    <section className={s.section}>
       <Title tag="h2">
-        <Image
-          src="/awards/awards.svg"
-          alt="Icon Awards"
-          width={64}
-          height={80}
-          aria-hidden="true"
-        />
-        Individual Awards
+        <div className={s.header}>
+          <Image
+            src="/awards/awards.svg"
+            alt="Icon Awards"
+            width={64}
+            height={80}
+            aria-hidden="true"
+          />
+          Individual Awards
+        </div>
       </Title>
-      <ul>
+
+      <ul className={s.cards}>
+        <Card>MVP do Circuito Brasileiro de Vôlei de Praia Open de 2002</Card>
         <Card>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          incidunt nesciunt placeat.
+          Melhor Bloqueio do Circuito Brasileiro de Vôlei de Praia Open de 2002
+        </Card>
+        <Card>
+          Melhor Ataque do Circuito Brasileiro de Vôlei de Praia Open de 2002
+        </Card>
+        <Card>MVP do Circuito Brasileiro de Vôlei de Praia Open de 2000</Card>
+        <Card>
+          Revelação do Circuito Brasileiro de Vôlei de Praia Open de 1999
         </Card>
       </ul>
     </section>
