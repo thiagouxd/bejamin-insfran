@@ -2,7 +2,7 @@ import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
 import s from "./style.module.scss";
 
-const NextSteps = () => {
+const Contribution = () => {
   return (
     <section className={s.section}>
       <div className={s.primaryContainer}>
@@ -31,4 +31,4 @@ const NextSteps = () => {
   );
 };
 
-export default NextSteps;
+export default Contribution;
