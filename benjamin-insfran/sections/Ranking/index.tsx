@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Ranking = () => {
   return (
-    <section>
+    <section className={s.section}>
       <div className={s.primaryContainer}>
         <Title tag="h2">FIVB Official Ranking</Title>
         <div>
@@ -34,6 +34,7 @@ const Ranking = () => {
       </ul>
 
       <Link
+        className={s.link}
         href="https://www.fivb.com/en/beachvolleyball/beachplayersdatabase/102082"
         target="_blank"
       >
