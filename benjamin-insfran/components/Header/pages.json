@@ -1,5 +1,9 @@
 [
   {
+    "name": "Home",
+    "path": "/"
+  },
+  {
     "name": "Podiums",
     "path": "/podiums"
   },
