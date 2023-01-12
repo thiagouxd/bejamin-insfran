@@ -1,0 +1,35 @@
+.section {
+  h1 {
+    margin: 32px auto;
+    text-align: center;
+  }
+}
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  gap: 8px;
+}
+
+.galleryImage {
+  border-radius: 8px;
+  max-width: 292px;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+
+  @media (max-width: 600px) {
+    width: 40%;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
+}
