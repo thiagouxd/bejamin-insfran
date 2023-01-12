@@ -7,6 +7,10 @@
   max-width: 1200px;
   margin: 40px auto;
   color: #1053bf;
+  max-width: 80vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
 }
 
 .primaryContainer {
