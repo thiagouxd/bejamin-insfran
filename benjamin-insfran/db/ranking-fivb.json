@@ -1,118 +1,17 @@
 [
-  {
-    "name": "Philip Dalhausser",
-    "gold": 37,
-    "silver": 16,
-    "bronze": 14,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 2686800
-  },
-  {
-    "name": "Todd Rogers",
-    "gold": 26,
-    "silver": 8,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1822200
-  },
-  {
-    "name": "Jacob Gibb",
-    "gold": 7,
-    "silver": 9,
-    "bronze": 8,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1686375
-  },
-  {
-    "name": "Benjamin Insfran",
-    "gold": 13,
-    "silver": 10,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1408075,
-    "brazilian": true
-  },
-  {
-    "name": "Philip Dalhausser",
-    "gold": 37,
-    "silver": 16,
-    "bronze": 14,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 2686800
-  },
-  {
-    "name": "Todd Rogers",
-    "gold": 26,
-    "silver": 8,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1822200
-  },
-  {
-    "name": "Jacob Gibb",
-    "gold": 7,
-    "silver": 9,
-    "bronze": 8,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1686375
-  },
-  {
-    "name": "Benjamin Insfran",
-    "gold": 13,
-    "silver": 10,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1408075,
-    "brazilian": true
-  },
-  {
-    "name": "Philip Dalhausser",
-    "gold": 37,
-    "silver": 16,
-    "bronze": 14,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 2686800
-  },
-  {
-    "name": "Todd Rogers",
-    "gold": 26,
-    "silver": 8,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1822200
-  },
-  {
-    "name": "Jacob Gibb",
-    "gold": 7,
-    "silver": 9,
-    "bronze": 8,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1686375
-  },
-  {
-    "name": "Benjamin Insfran",
-    "gold": 13,
-    "silver": 10,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1408075,
-    "brazilian": true
-  },
-  {
-    "name": "Jacob Gibb",
-    "gold": 7,
-    "silver": 9,
-    "bronze": 8,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1686375
-  },
-  {
-    "name": "Benjamin Insfran",
-    "gold": 13,
-    "silver": 10,
-    "bronze": 11,
-    "olympicPosition": "Atena - 9º",
-    "fivbValues": 1408075,
-    "brazilian": true
-  }
+  {"name": "Philip Dalhausser","gold": 37,"silver": 16,"bronze": 14,"olympicPosition": "1º - 1º - 5º - 9º","fivbValues": "2.686.800"},
+  {"name": "Todd Rogers","gold": 26,"silver": 8,"bronze": 11,"olympicPosition": "1º - 9º","fivbValues": "1.822.200"},
+  {"name": "Jacob Gibb","gold": 7,"silver": 9,"bronze": 8,"olympicPosition": "19º - 5º - 5º - 9º","fivbValues": "1.686.375"},
+  {"name": "Benjamin Insfran","gold": 13,"silver": 10,"bronze": 11,"olympicPosition": "9º","fivbValues": "1.408.075", "brazilian": true},
+  {"name": "Nicholas Lucena","gold": 9,"silver": 11,"bronze": 6,"olympicPosition": "5º - 9º","fivbValues": "1.395.001"},
+  {"name": "Sean Rosenthal","gold": 10,"silver": 6,"bronze": 4,"olympicPosition": "5º - 5º","fivbValues": "1.259.800"},
+  {"name": "Sinjin Smith","gold": 10,"silver": 7,"bronze": 3,"olympicPosition": "5º","fivbValues": "688.876"},
+  {"name": "Kevin Wong","gold": 3,"silver": 3,"bronze": 5,"olympicPosition": "5º","fivbValues": "620.900"},
+  {"name": "Dain Blanton","gold": 1,"silver": 1,"bronze": 3,"olympicPosition": "1º","fivbValues": "414.970"},
+  {"name": "Eric Fonoimoana","silver": 2,"bronze": 1,"olympicPosition": "1º","fivbValues": "369.750"},
+  {"name": "Mike Whitmarsh","gold": 2,"silver": 5,"bronze": 1,"olympicPosition": "2º","fivbValues": "296.550"},
+  {"name": "Randy Stoklos","gold": 14,"bronze": 1,"fivbValues": "200.500"},
+  {"name": "Michael Dodd","gold": 2,"silver": 2,"bronze": 1,"olympicPosition": "2º","fivbValues": "173.900"},
+  {"name": "Karch Kiraly","gold": 2,"silver": 3,"bronze": 1,"olympicPosition": "1º","fivbValues": "167.500"},
+  {"name": "Kent Steffes (G)","gold": 2,"silver": 2,"bronze": 2,"olympicPosition": "1º","fivbValues": "127.050"}
 ]

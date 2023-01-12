@@ -1,5 +1,5 @@
 .section {
-  padding: 40px 0;
+  padding: 40px 16px;
 }
 
 .link {
@@ -15,12 +15,21 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 48px 16px;
+  padding: 48px 24px;
+
+  @media (max-width:700px) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 
   p {
     text-align: right;
     margin-bottom: 16px;
     font-size: 14px;
+
+    @media (max-width:700px) {
+      text-align: left;
+    }
   }
 }
 
@@ -29,11 +38,15 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  max-height: 580px;
+  max-height: 660px;
   flex-wrap: wrap;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   position: relative;
   left: -16px;
+
+  @media (max-width: 900px) {
+    max-height: 100%;
+  }
 }

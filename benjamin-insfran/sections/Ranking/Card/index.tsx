@@ -6,7 +6,7 @@ type Props = {
   gold?: number;
   silver?: number;
   bronze?: number;
-  fivbValues: number;
+  fivbValues: string;
   olympicPosition?: string;
   brazilian?: boolean;
 };
