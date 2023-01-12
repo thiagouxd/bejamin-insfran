@@ -15,17 +15,27 @@ const Gallery = () => {
           <PhotoProvider>
             {data.map((item, index) => (
               <PhotoView key={index} src={item}>
-                <img className={s.galleryImage} src={item} alt="" />
+                <Image
+                  width={0}
+                  height={0}
+                  className={s.galleryImage}
+                  src={item}
+                  alt=""
+                />
               </PhotoView>
             ))}
           </PhotoProvider>
         </div>
       </section>
 
-      <Title tag="h1">Videos</Title>
+      <section className={s.section}>
+        <Title tag="h1">Videos</Title>
 
-      <section>
-        <div>
+        <div className={s.videosContainer}>
+          <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
+          <YoutubePlayer codeVideo="3PGfIc6ra2I" />
+          <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
+          <YoutubePlayer codeVideo="3PGfIc6ra2I" />
           <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
           <YoutubePlayer codeVideo="3PGfIc6ra2I" />
         </div>
