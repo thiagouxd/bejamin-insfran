@@ -1,12 +1,13 @@
 import Paragraph from "../Paragraph";
+import s from "./styles.module.scss";
 
 const Footer = () => {
   return (
-    <footer>
-      <Paragraph>2022 - Chicago USA</Paragraph>
+    <footer className={s.footer}>
+      {/* <Paragraph>2022 - Chicago USA</Paragraph>
       <Paragraph>
         Design and development by <strong>Thiago Menezes</strong>
-      </Paragraph>
+      </Paragraph> */}
     </footer>
   );
 };
