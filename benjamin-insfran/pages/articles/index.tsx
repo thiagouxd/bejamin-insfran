@@ -20,16 +20,6 @@ const Articles = () => {
                   Go to report`s site
                 </Link>
               </div>
-              <div className={s.card} key={"article" + i}>
-                <Title tag="h2">{item.title}</Title>
-                <Paragraph>{item.text}</Paragraph>
-                <Link href={item.link}>Go to report`s site</Link>
-              </div>
-              <div className={s.card} key={"article" + i}>
-                <Title tag="h2">{item.title}</Title>
-                <Paragraph>{item.text}</Paragraph>
-                <Link href={item.link}>Go to report`s site</Link>
-              </div>
             </>
           );
         })}
