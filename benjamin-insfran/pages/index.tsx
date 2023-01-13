@@ -7,6 +7,7 @@ import Hero from "../sections/Hero";
 import Podiums from "../sections/Podiums";
 import Ranking from "../sections/Ranking";
 import s from "../styles/Home.module.scss";
+import OG from "../sections/About/OG";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Ranking />
         <Podiums />
         <Awards />
+        <OG />
         <Articles />
         {/* <Contribution /> */}
         <NextSteps />
