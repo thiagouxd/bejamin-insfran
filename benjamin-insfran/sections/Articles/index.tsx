@@ -23,13 +23,7 @@ const Articles = () => {
 
         <div className={s.secondaryContainer}>
           <ul className={s.reportList}>
-            {data.map((item, i) => {
-              return <Card key={"news" + i} item={item} />;
-            })}
-            {data.map((item, i) => {
-              return <Card key={"news" + i} item={item} />;
-            })}
-            {data.map((item, i) => {
+            {data.slice(0, 3).map((item, i) => {
               return <Card key={"news" + i} item={item} />;
             })}
           </ul>

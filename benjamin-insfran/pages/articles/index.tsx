@@ -16,7 +16,7 @@ const Articles = () => {
               <div className={s.card} key={"article" + i}>
                 <Title tag="h2">{item.title}</Title>
                 <Paragraph>{item.text}</Paragraph>
-                <Link className={s.link} href={item.link}>
+                <Link className={s.link} target="_blank" href={item.link}>
                   Go to report`s site
                 </Link>
               </div>
