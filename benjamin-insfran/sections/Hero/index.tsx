@@ -41,9 +41,7 @@ const Hero = () => {
 
             <div className={s.contact}>
               <Title tag="h4">CONTACT</Title>
-              <Link type="tel" href="+1 212-353-1246">
-                +1 212-353-1246
-              </Link>
+
               <Link type="email" href="benjamin.insfran@gmail.com">
                 benjamin.insfran@gmail.com
               </Link>

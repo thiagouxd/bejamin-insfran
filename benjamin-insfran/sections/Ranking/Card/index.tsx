@@ -46,7 +46,7 @@ export const Card = ({ item, number }: PropItem) => {
             </p>
           )}
           <p className={s.values}>
-            FIVB Values:<strong> ${item.fivbValues}</strong>
+            FIVB Prizes:<strong> ${item.fivbValues}</strong>
           </p>
         </div>
       </div>

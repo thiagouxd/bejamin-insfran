@@ -12,7 +12,7 @@ const Articles = () => {
     <section className={s.section}>
       <div className={s.content}>
         <div className={s.primaryContainer}>
-          <Title tag="h3">Articles and Reports</Title>
+          <Title tag="h3">Articles and News</Title>
           <Paragraph>
             Compilation of some articles and news in which Benjamin`s work is
             cited during his 20+ years of professional athletic career.
@@ -30,7 +30,7 @@ const Articles = () => {
         </div>
       </div>
       <Link href="/articles" className={s.button}>
-        <Button secondary>See all reports</Button>
+        <Button secondary>See all news</Button>
       </Link>
     </section>
   );

@@ -7,7 +7,7 @@ import s from "./styles.module.scss";
 const Articles = () => {
   return (
     <section className={s.section}>
-      <Title>Articles and reports</Title>
+      <Title>Articles and news</Title>
 
       <div className={s.cards}>
         {data.map((item, i) => {
@@ -17,7 +17,7 @@ const Articles = () => {
                 <Title tag="h2">{item.title}</Title>
                 <Paragraph>{item.text}</Paragraph>
                 <Link className={s.link} target="_blank" href={item.link}>
-                  Go to report`s site
+                  Go to website
                 </Link>
               </div>
             </>
