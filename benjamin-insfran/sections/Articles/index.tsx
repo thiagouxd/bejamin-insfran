@@ -22,7 +22,7 @@ const Articles = () => {
         </div>
 
         <div className={s.secondaryContainer}>
-          <ul className={s.reportList}>
+          <ul className={s.newsList}>
             {data.slice(0, 3).map((item, i) => {
               return <Card key={"news" + i} item={item} />;
             })}

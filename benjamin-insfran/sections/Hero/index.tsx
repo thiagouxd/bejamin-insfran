@@ -42,8 +42,8 @@ const Hero = () => {
             <div className={s.contact}>
               <Title tag="h4">CONTACT</Title>
 
-              <Link type="email" href="benjamin.insfran@gmail.com">
-                benjamin.insfran@gmail.com
+              <Link type="email" href="mailto:ben_insfran@icloud.com">
+                ben_insfran@icloud.com
               </Link>
             </div>
           </div>
