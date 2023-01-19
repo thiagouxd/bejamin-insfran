@@ -39,25 +39,19 @@ const OG = () => {
               represent Brazil in the Olympic Games, held in Athens. The team
               had a realistic chance of an Olympic medal, even gold.
             </Paragraph>
+            <Paragraph>
+              His dream, however, was interrupted by an unexpected dramatic 2x1
+              loss (23x21, 19x21, 15x13) to the Swiss brothers Martin & Paul
+              Laciga, whom Benjamin & Marcio had defeated so many times before.
+            </Paragraph>
+            <Paragraph>
+              Benjamin said at the time: “[Inserir fala aqui] <br />
+            </Paragraph>
+            <Paragraph>
+              Benjamin & Marcio finished 9th in the competition.
+            </Paragraph>
           </div>
         </div>
-      </div>
-
-      <div className={s.secondaryContainer}>
-        <div className={s.textContainer}>
-          <Paragraph>
-            His dream, however, was interrupted by an unexpected dramatic 2x1
-            loss (23x21, 19x21, 15x13) to the Swiss brothers Martin & Paul
-            Laciga, whom Benjamin & Marcio had defeated so many times before.
-          </Paragraph>
-          <Paragraph>
-            Benjamin said at the time: “[Inserir fala aqui] <br />
-          </Paragraph>
-          <Paragraph>
-            Benjamin & Marcio finished 9th in the competition.
-          </Paragraph>
-        </div>
-        <Image src="/about/og/02.jpg" width={100} height={100} alt="" />
       </div>
     </section>
   );
