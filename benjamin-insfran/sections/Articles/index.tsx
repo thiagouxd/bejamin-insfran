@@ -18,7 +18,12 @@ const Articles = () => {
             cited during his 20+ years of professional athletic career.
           </Paragraph>
 
-          <Image width={576} height={640} src="/articles.jpg" alt="photo" />
+          <Image
+            width={576}
+            height={640}
+            src="/articles/photo.jpg"
+            alt="photo"
+          />
         </div>
 
         <div className={s.secondaryContainer}>

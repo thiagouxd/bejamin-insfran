@@ -11,7 +11,7 @@ const Hero = () => {
       <div className={s.content}>
         <div className={s.primaryContainer}>
           <Image
-            src="/hero-logo.svg"
+            src="/hero/logo.svg"
             alt="Logo Benjamin"
             height={130}
             width={300}

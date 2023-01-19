@@ -25,7 +25,7 @@ const Header = () => {
     <header className={s.header}>
       <nav className={s.nav}>
         <Link href="/" className={s.logo}>
-          <Image src="/header-logo.svg" alt="Logo" width={131} height={34} />
+          <Image src="/header/logo.svg" alt="Logo" width={131} height={34} />
         </Link>
 
         {pages.map((page) => {

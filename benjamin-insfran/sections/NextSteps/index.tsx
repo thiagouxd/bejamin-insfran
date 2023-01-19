@@ -37,7 +37,7 @@ const NextSteps = () => {
           className={s.image}
           width={500}
           height={700}
-          src="/next.png"
+          src="/next-steps/photo.png"
           alt="Benjamin"
         />
       </div>
