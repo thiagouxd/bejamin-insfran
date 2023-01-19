@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Paragraph from "../../components/Paragraph";
-import Title from "../../components/Title";
+import Paragraph from "components/Paragraph";
+import Title from "components/Title";
 import data from "../../db/news.json";
 import s from "./styles.module.scss";
 

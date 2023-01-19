@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Paragraph from "../../components/Paragraph";
-import Title from "../../components/Title";
+import Paragraph from "components/Paragraph";
+import Title from "components/Title";
+import Letter from "../../sections/About/Letter";
 import OG from "../../sections/About/OG";
 import s from "./styles.module.scss";
 
@@ -101,6 +102,7 @@ const About = () => {
       </section>
 
       <OG />
+      <Letter />
     </>
   );
 };

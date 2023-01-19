@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import Paragraph from "../../components/Paragraph";
+import Paragraph from "components/Paragraph";
 import s from "./styles.module.scss";
 
 type Props = { children: ReactNode };

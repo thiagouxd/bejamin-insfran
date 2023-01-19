@@ -1,5 +1,5 @@
-import Title from "../../components/Title";
-import YoutubePlayer from "../../components/YoutubePlayer";
+import Title from "components/Title";
+import YoutubePlayer from "components/YoutubePlayer";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import Image from "next/image";
 import data from "../../db/gallery.json";

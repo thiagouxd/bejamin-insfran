@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Header from "../components/Header";
 import Articles from "../sections/Articles";
 import Awards from "../sections/Awards";
 import NextSteps from "../sections/NextSteps";

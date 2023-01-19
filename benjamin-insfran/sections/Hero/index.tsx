@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../../components/Button";
-import Paragraph from "../../components/Paragraph";
-import Title from "../../components/Title";
+import Button from "components/Button";
+import Paragraph from "components/Paragraph";
+import Title from "components/Title";
 import s from "./styles.module.scss";
 
 const Hero = () => {

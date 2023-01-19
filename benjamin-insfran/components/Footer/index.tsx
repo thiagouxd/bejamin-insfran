@@ -1,4 +1,3 @@
-import Paragraph from "../Paragraph";
 import s from "./styles.module.scss";
 
 const Footer = () => {

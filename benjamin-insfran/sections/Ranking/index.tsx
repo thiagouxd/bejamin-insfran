@@ -1,5 +1,5 @@
-import Paragraph from "../../components/Paragraph";
-import Title from "../../components/Title";
+import Paragraph from "components/Paragraph";
+import Title from "components/Title";
 import { Card } from "./Card";
 import s from "./styles.module.scss";
 import data from "../../db/ranking-fivb.json";

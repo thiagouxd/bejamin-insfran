@@ -1,5 +1,5 @@
-import Paragraph from "../../components/Paragraph";
-import Title from "../../components/Title";
+import Paragraph from "components/Paragraph";
+import Title from "components/Title";
 import s from "./style.module.scss";
 
 const Contribution = () => {

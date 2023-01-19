@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ReactNode } from "react";
-import Paragraph from "../../components/Paragraph";
-import Title from "../../components/Title";
+import Paragraph from "components/Paragraph";
+import Title from "components/Title";
 import s from "./styles.module.scss";
 
 type Props = { item: { text: string; title: string; link: string } };
