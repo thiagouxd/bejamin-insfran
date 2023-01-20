@@ -6,6 +6,7 @@ import Hero from "../sections/Hero";
 import Podiums from "../sections/Podiums";
 import Ranking from "../sections/Ranking";
 import OG from "../sections/About/OG";
+import Recognitions from "sections/Recognitions";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         <Awards />
         <OG />
         <Articles />
-        {/* <Contribution /> */}
+        <Recognitions />
         <NextSteps />
       </main>
     </>
