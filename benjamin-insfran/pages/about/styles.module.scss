@@ -5,15 +5,12 @@
   padding: 0 16px;
 }
 
-.about {}
-
 .container {
   display: flex;
   gap: 32px;
 
   @media (max-width: 800px) {
     flex-direction: column;
-    padding: 0 40px;
     align-items: center;
   }
 }
