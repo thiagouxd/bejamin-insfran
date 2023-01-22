@@ -5,10 +5,14 @@ import Image from "next/image";
 import data from "../../db/gallery.json";
 import videos from "../../db/videos.json";
 import s from "./styles.module.scss";
+import Head from "next/head";
 
 const Gallery = () => {
   return (
     <>
+      <Head>
+        <title>Benjamin Insfran - Gallery</title>
+      </Head>
       <section className={s.section}>
         <Title tag="h1">Photos</Title>
 

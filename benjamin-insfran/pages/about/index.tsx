@@ -4,10 +4,14 @@ import Title from "components/Title";
 import Letter from "../../sections/About/Letter";
 import OG from "../../sections/About/OG";
 import s from "./styles.module.scss";
+import Head from "next/head";
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>Benjamin Insfran - About</title>
+      </Head>
       <section className={s.section}>
         <div className={s.about}>
           <div className={`${s.container} ${s.containerPrimary}`}>
