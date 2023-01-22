@@ -15,9 +15,8 @@ const Recognitions = () => {
     <section className={s.section}>
       <div className={s.cbvLetter}>
         <Title>RECOGNITIONS</Title>
-        <Title tag="h4">CBV RECOMENDATION</Title>
+        <Title tag="h4">CBV RECOMMENDATION</Title>
         <Paragraph>Rio de Janeiro, November 04, 2022.</Paragraph>
-        <Paragraph>To Whom It May Concern</Paragraph>
         <Paragraph>
           Since 1954 and 1988, respectively, we have been the institution
           responsible for creating, developing, and managing the indoor and

@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Paragraph from "components/Paragraph";
 import Title from "components/Title";
-import Letter from "../../sections/About/Letter";
-import OG from "../../sections/About/OG";
 import s from "./styles.module.scss";
 import Head from "next/head";
 
@@ -104,9 +102,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <OG />
-      <Letter />
     </>
   );
 };

@@ -42,13 +42,13 @@ const Hero = () => {
             <div className={s.contact}>
               <Title tag="h4">CONTACT</Title>
 
-              <Link type="email" href="mailto:ben_insfran@icloud.com">
-                ben_insfran@icloud.com
+              <Link type="email" href="mailto:contact@benjamininsfran.com">
+                contact@benjamininsfran.com
               </Link>
             </div>
           </div>
 
-          <Link href="/#ranking">
+          <Link href="/about">
             <Button>About</Button>
           </Link>
         </div>

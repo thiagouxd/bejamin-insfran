@@ -7,6 +7,7 @@ import Podiums from "../sections/Podiums";
 import Ranking from "../sections/Ranking";
 import OG from "../sections/About/OG";
 import Recognitions from "sections/Recognitions";
+import Letter from "sections/About/Letter";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         <Podiums />
         <Awards />
         <OG />
+        <Letter />
         <Articles />
         <Recognitions />
         <NextSteps />
