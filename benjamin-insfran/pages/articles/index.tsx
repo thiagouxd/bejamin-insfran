@@ -27,7 +27,7 @@ const Articles = () => {
 
       <Title>around the world</Title>
 
-      <div className={s.cards} style={{ maxHeight: 2200 }}>
+      <div className={`${s.cards} ${s.cards_international}`}>
         {data
           .filter((item) => item.international)
           .map((item, i) => {

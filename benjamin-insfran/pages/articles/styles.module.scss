@@ -26,6 +26,14 @@
   }
 }
 
+.cards_international {
+  max-height: 2200px;
+
+  @media (max-width: 1120px) {
+    max-height: initial;
+  }
+}
+
 .card {
   display: flex;
   flex-direction: column;
