@@ -1,7 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import Button from "components/Button";
-import Paragraph from "components/Paragraph";
 import Title from "components/Title";
 import { Card } from "./Card";
 import s from "./styles.module.scss";
@@ -23,16 +20,22 @@ const Awards = () => {
       </Title>
 
       <ul className={s.cards}>
-        <Card>MVP do Circuito Brasileiro de Vôlei de Praia Open de 2002</Card>
         <Card>
-          Melhor Bloqueio do Circuito Brasileiro de Vôlei de Praia Open de 2002
+          Rookie of the Year - 1999 - Brazilian Beach Volleyball National
+          Tournament
         </Card>
         <Card>
-          Melhor Ataque do Circuito Brasileiro de Vôlei de Praia Open de 2002
+          Most Valuable Player (MVP) - 2000 - Brazilian Beach Volleyball
         </Card>
-        <Card>MVP do Circuito Brasileiro de Vôlei de Praia Open de 2000</Card>
         <Card>
-          Revelação do Circuito Brasileiro de Vôlei de Praia Open de 1999
+          National Tournament Best Spiker - 2002 - Brazilian Beach Volleyball
+        </Card>
+        <Card>
+          Best Blocker - 2002 - Brazilian Beach Volleyball National Tournament
+        </Card>
+        <Card>
+          Most Valuable Player (MVP) - 2002 - Brazilian Beach Volleyball
+          National Tournament
         </Card>
       </ul>
     </section>

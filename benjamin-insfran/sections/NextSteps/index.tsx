@@ -18,7 +18,7 @@ const NextSteps = () => {
           </Paragraph>
 
           <Paragraph>
-            “Volleyball has taken me to all parts of the world, bur I had never
+            “Volleyball has taken me to all parts of the world, but I had never
             seen a complex with 70 side-to-side courts, all full of children
             playing”, says Benjamin. And he completes: “I am blown away, this is
             volleyball heaven.”

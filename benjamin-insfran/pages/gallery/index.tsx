@@ -3,6 +3,7 @@ import YoutubePlayer from "components/YoutubePlayer";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import Image from "next/image";
 import data from "../../db/gallery.json";
+import videos from "../../db/videos.json";
 import s from "./styles.module.scss";
 
 const Gallery = () => {
@@ -32,12 +33,14 @@ const Gallery = () => {
         <Title tag="h1">Videos</Title>
 
         <div className={s.videosContainer}>
-          <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
-          <YoutubePlayer codeVideo="3PGfIc6ra2I" />
-          <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
-          <YoutubePlayer codeVideo="3PGfIc6ra2I" />
-          <YoutubePlayer codeVideo="zFT9hpQ5VUo" />
-          <YoutubePlayer codeVideo="3PGfIc6ra2I" />
+          {videos.map((item, i) => {
+            return (
+              <div className={s.video} key={"videos" + i}>
+                <YoutubePlayer codeVideo={item.code} />
+                <legend>{item.legend}</legend>
+              </div>
+            );
+          })}
         </div>
       </section>
     </>

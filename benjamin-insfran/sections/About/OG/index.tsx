@@ -44,9 +44,9 @@ const OG = () => {
               loss (23x21, 19x21, 15x13) to the Swiss brothers Martin & Paul
               Laciga, whom Benjamin & Marcio had defeated so many times before.
             </Paragraph>
-            <Paragraph>
+            {/* <Paragraph>
               Benjamin said at the time: “[Inserir fala aqui] <br />
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph>
               Benjamin & Marcio finished 9th in the competition.
             </Paragraph>

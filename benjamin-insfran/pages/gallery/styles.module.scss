@@ -38,16 +38,26 @@
 
 .videosContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
   padding-bottom: 80px;
 
-  iframe {
-    width: 100%;
-    max-width: 572px;
-    height: 342px;
-    border-radius: 8px;
+  .video {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    iframe {
+      width: 100%;
+      height: 342px;
+      border-radius: 8px;
+    }
+
+    legend {
+      margin-top: 16px;
+      font-size: 16px;
+    }
   }
 }

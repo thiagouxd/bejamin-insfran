@@ -102,7 +102,7 @@ const Recognitions = () => {
       <div className={s.plaques}>
         <PhotoProvider>
           {plaques.map((item, index) => (
-            <div key={index}>
+            <div key={"plaques" + index}>
               <PhotoView src={`/recognitions/homage-plaque/${item.name}`}>
                 <Image
                   width={100}
@@ -113,7 +113,7 @@ const Recognitions = () => {
                 />
               </PhotoView>
 
-              <legend>{item.text}</legend>
+              {/* <legend>{item.text}</legend> */}
             </div>
           ))}
         </PhotoProvider>
