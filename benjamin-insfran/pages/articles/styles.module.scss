@@ -20,6 +20,10 @@
   align-items: center;
   gap: 24px;
   width: 100%;
+
+  @media (max-width: 1120px) {
+    max-height: initial;
+  }
 }
 
 .card {
