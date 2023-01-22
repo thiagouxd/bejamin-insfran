@@ -13,9 +13,13 @@
 
 .cards {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  max-height: 3500px;
   justify-content: center;
-  gap: 24px
+  align-items: center;
+  gap: 24px;
+  width: 100%;
 }
 
 .card {

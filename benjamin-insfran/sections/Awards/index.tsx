@@ -20,22 +20,14 @@ const Awards = () => {
       </Title>
 
       <ul className={s.cards}>
-        <Card>
-          Rookie of the Year - 1999 - Brazilian Beach Volleyball National
-          Tournament
-        </Card>
+        <Card>Rookie of the Year - 1999 - Brazilian Beach Volleyball</Card>
         <Card>
           Most Valuable Player (MVP) - 2000 - Brazilian Beach Volleyball
         </Card>
-        <Card>
-          National Tournament Best Spiker - 2002 - Brazilian Beach Volleyball
-        </Card>
-        <Card>
-          Best Blocker - 2002 - Brazilian Beach Volleyball National Tournament
-        </Card>
+        <Card>Best Spiker - 2002 - Brazilian Beach Volleyball</Card>
+        <Card>Best Blocker - 2002 - Brazilian Beach Volleyball</Card>
         <Card>
           Most Valuable Player (MVP) - 2002 - Brazilian Beach Volleyball
-          National Tournament
         </Card>
       </ul>
     </section>
