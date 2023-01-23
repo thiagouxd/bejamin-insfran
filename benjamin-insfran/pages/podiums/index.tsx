@@ -14,11 +14,11 @@ const Podiums = () => {
   return (
     <>
       <Head>
-        <title>Benjamin Insfran - Podiums</title>
+        <title>Benjamin Insfran - FIVB International Podiums</title>
       </Head>
 
       <section className={s.section}>
-        <Title>International Podiums</Title>
+        <Title>FIVB International Podiums</Title>
 
         <div className={s.tableContainer}>
           <table>

@@ -19,7 +19,7 @@ const Hero = () => {
           />
 
           <div className={s.text}>
-            <Title>Who is Benjamin</Title>
+            <Title>Who is Benjamin?</Title>
             <Paragraph>
               Benjamin is one of the greatest beach volleyball players of all
               times. Born in Brazil, he played indoor volleyball in prominent

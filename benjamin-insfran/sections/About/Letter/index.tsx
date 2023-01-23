@@ -7,7 +7,7 @@ const Letter = () => {
   return (
     <section className={s.section}>
       <div className={s.textContainer}>
-        <Title>Márcio`s letter</Title>
+        <Title>Marcio`s letter</Title>
         <Paragraph>
           I am Marcio Araujo, beach volleyball Olympic silver medalist in 2008,
           Beijing.
@@ -62,7 +62,7 @@ const Letter = () => {
               src="/about/letter/signature.png"
               alt="Marcio's Signature"
             />
-            <p>Márcio Henrique Barroso Araújo </p>
+            <p>Marcio Henrique Barroso Araújo </p>
           </div>
         </div>
       </div>

@@ -38,8 +38,10 @@ const Recognitions = () => {
         </Paragraph>
         <Paragraph>
           Most Valuable Player (MVP) - 2000 - Brazilian Beach Volleyball
-          National Tournament Best Spiker - 2002 - Brazilian Beach Volleyball
           National Tournament
+        </Paragraph>
+        <Paragraph>
+          Best Spiker - 2002 - Brazilian Beach Volleyball National Tournament
         </Paragraph>
         <Paragraph>
           Best Blocker - 2002 - Brazilian Beach Volleyball National Tournament

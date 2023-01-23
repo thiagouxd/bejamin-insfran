@@ -26,7 +26,7 @@ const NextSteps = () => {
 
           <Paragraph>
             Benjamin wants to add his experience and knowledge on both indoor
-            and beach volleyball to reach children who want to develop and play
+            and beach volleyball to reach young players who want to develop and play
             the sport competitively. He is currently in the process of creating
             his own volleyball club, where he plans to offer training and
             coaching all year round.
