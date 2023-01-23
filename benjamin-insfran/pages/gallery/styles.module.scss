@@ -10,29 +10,31 @@
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1600px;
   gap: 8px;
+  padding: 0 8px;
 }
 
 .galleryImage {
   border-radius: 8px;
   max-width: 292px;
   width: 100%;
-  height: auto;
+  height: 240px;
   cursor: pointer;
   position: relative;
+  object-fit: cover;
 
   &:hover {
     opacity: 0.8;
   }
 
-
   @media (max-width: 600px) {
-    width: 40%;
+    width: 30%;
+    height: 120px;
   }
 
   @media (max-width: 400px) {
-    width: 100%;
+    width: 48%;
   }
 }
 

@@ -2,10 +2,12 @@ import Title from "components/Title";
 import YoutubePlayer from "components/YoutubePlayer";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import Image from "next/image";
-import data from "../../db/gallery.json";
 import videos from "../../db/videos.json";
 import s from "./styles.module.scss";
 import Head from "next/head";
+
+const amountOfPhotos = 100;
+const data = Array.from({ length: amountOfPhotos }, (_, index) => index + 1);
 
 const Gallery = () => {
   return (
@@ -18,17 +20,20 @@ const Gallery = () => {
 
         <div className={s.galleryContainer}>
           <PhotoProvider>
-            {data.map((item, index) => (
-              <PhotoView key={index} src={item}>
-                <Image
-                  width={0}
-                  height={0}
-                  className={s.galleryImage}
-                  src={item}
-                  alt=""
-                />
-              </PhotoView>
-            ))}
+            {data.map((item, index) => {
+              const src = `/gallery/${item}-min.jpg`;
+              return (
+                <PhotoView key={index} src={src}>
+                  <Image
+                    width={0}
+                    height={0}
+                    className={s.galleryImage}
+                    src={src}
+                    alt=""
+                  />
+                </PhotoView>
+              );
+            })}
           </PhotoProvider>
         </div>
       </section>
