@@ -5,9 +5,65 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import s from "./styles.module.scss";
 
 const plaques = [
-  { text: "Texto da Imagem", name: "01.png" },
-  { text: "Texto da Imagem", name: "02.png" },
-  { text: "Texto da Imagem", name: "03.png" },
+  {
+    text: (
+      <>
+        <Paragraph>
+          The Government of the State of Maranhão, by means of this Secretariat
+          of Sports and Recreation (Sedel), honors the athlete Benjamin Insfran
+          for all his contribution to the Brazilian volleyball.
+        </Paragraph>
+        <Paragraph>Hewerton Carlos Rodrigues Pereira</Paragraph>
+        <Paragraph>State Secretary of Sports and Recreation</Paragraph>
+      </>
+    ),
+    name: "04.png",
+  },
+  {
+    text: (
+      <>
+        <Paragraph>
+          The Municipal Chamber of Dourados grants Benjamin Insfran this homage
+          for his excellent performance in the sports scenario. The Municipal
+          Chamber of Dourados honors on this date the athletes who turn their
+          efforts and work into a reason that makes us all proud.
+        </Paragraph>
+        <Paragraph>Humberto Teixeira Junior - President</Paragraph>
+      </>
+    ),
+    name: "03.png",
+  },
+  {
+    text: (
+      <>
+        <Paragraph>
+          To Benjamin Insfran as recognition and jubilation for the personal
+          projection achieved in the national scenario, carrying with him the
+          name of our State, reason of pride to all of us.
+        </Paragraph>
+
+        <Paragraph>
+          Board of the Volleyball Federation of Mato Grosso do Sul
+        </Paragraph>
+      </>
+    ),
+
+    name: "02.png",
+  },
+  {
+    text: (
+      <>
+        <Paragraph>
+          The Government of Mato Grosso do Sul and Fundesporte congratulate
+          athlete Benjamin as recognition of the merits achieved.
+        </Paragraph>
+        <Paragraph>José Orcirio Miranda dos Santos</Paragraph>
+        <Paragraph>Governor of the State of Mato Grosso do Sul</Paragraph>
+      </>
+    ),
+
+    name: "01.png",
+  },
 ];
 
 const Recognitions = () => {
@@ -103,7 +159,7 @@ const Recognitions = () => {
       <div className={s.plaques}>
         <PhotoProvider>
           {plaques.map((item, index) => (
-            <div key={"plaques" + index}>
+            <div className={s.plaqueWrapper} key={"plaques" + index}>
               <PhotoView src={`/recognitions/homage-plaque/${item.name}`}>
                 <Image
                   width={100}
@@ -114,7 +170,7 @@ const Recognitions = () => {
                 />
               </PhotoView>
 
-              {/* <legend>{item.text}</legend> */}
+              <legend>{item.text}</legend>
             </div>
           ))}
         </PhotoProvider>
