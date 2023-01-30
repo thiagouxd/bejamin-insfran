@@ -1,5 +1,5 @@
 .section {
-  background-color: #0C112E;
+  background-color: #0c112e;
   display: flex;
   padding: 64px 32px;
   padding-bottom: 200px;
@@ -56,6 +56,7 @@
     object-fit: fill;
     height: auto;
     width: 100%;
+    max-width: 540px;
   }
 }
 
@@ -86,18 +87,18 @@
     justify-content: space-between;
 
     a {
-      color: #5566FF
+      color: #5566ff;
     }
   }
 
   h3 {
-    color: #F8D771;
+    color: #f8d771;
     font-size: 24px;
   }
 
   p {
     color: white;
     font-weight: 400;
-    line-height: 20px
+    line-height: 20px;
   }
 }

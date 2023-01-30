@@ -24,7 +24,6 @@
 .plaques {
   display: flex;
   flex-direction: column;
-  max-width: 280px;
   width: 100%;
   background-color: #eee;
   padding: 16px;
@@ -33,7 +32,6 @@
   @media (max-width: 1200px) {
     padding: 24px;
     flex-direction: row;
-    max-width: 100%;
     overflow-x: auto;
   }
 

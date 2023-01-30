@@ -43,6 +43,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
+  padding: 0 16px;
   padding-bottom: 80px;
 
   .video {
@@ -55,11 +56,18 @@
       width: 100%;
       height: 342px;
       border-radius: 8px;
+
+      @media (max-width: 400px) {
+        height: 180px;
+      }
     }
 
     legend {
       margin-top: 16px;
       font-size: 16px;
+      @media (max-width: 400px) {
+        font-size: 14px;
+      }
     }
   }
 }

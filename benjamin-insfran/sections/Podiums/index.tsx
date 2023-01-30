@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Button from "components/Button";
-import Paragraph from "components/Paragraph";
 import Title from "components/Title";
 import s from "./styles.module.scss";
 import data from "../../db/numbers.json";
