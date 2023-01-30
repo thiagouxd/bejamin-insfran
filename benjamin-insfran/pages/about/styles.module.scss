@@ -8,6 +8,7 @@
 .container {
   display: flex;
   gap: 32px;
+  margin-bottom: 32px;
 
   @media (max-width: 800px) {
     flex-direction: column;
@@ -27,8 +28,7 @@
 }
 
 .image {
-  width: 380px;
-  height: 550px;
+  height: 320px;
   border-radius: 24px;
 
   @media (max-width: 800px) {

@@ -32,21 +32,6 @@ const About = () => {
                 teams in other states of the country and became a professional
                 player at the age of 18.
               </Paragraph>
-
-              <Paragraph>
-                Through indoor volleyball, Benjamin traveled all corners of
-                Brazil. His career was catapulting until a serious injury in
-                1995 took him out of the courts. He heard from doctors at the
-                time he would never be able to play at a professional level
-                again.
-              </Paragraph>
-
-              <Paragraph>
-                Once again Benjamin beat all odds. He was determined to heal and
-                for more than a year he diligently exercised on the beach, where
-                the impact on his body would be lower. This is when he was
-                introduced to beach volleyball and fell in love with the game.
-              </Paragraph>
             </div>
             <Image
               className={s.image}
@@ -61,12 +46,26 @@ const About = () => {
         <div className={`${s.container} ${s.containerSecondary}`}>
           <Image
             className={s.image}
-            src="/about/about2.jpg"
+            src="/about/about3.png"
             width={300}
             height={300}
             alt="Benjamin Picture"
           />
           <div className={s.textContainer}>
+            <Paragraph>
+              Through indoor volleyball, Benjamin traveled all corners of
+              Brazil. His career was catapulting until a serious injury in 1995
+              took him out of the courts. He heard from doctors at the time he
+              would never be able to play at a professional level again.
+            </Paragraph>
+
+            <Paragraph>
+              Once again Benjamin beat all odds. He was determined to heal and
+              for more than a year he diligently exercised on the beach, where
+              the impact on his body would be lower. This is when he was
+              introduced to beach volleyball and fell in love with the game.
+            </Paragraph>
+
             <Paragraph>
               In 1999, already with Marcio Araújo as his partner, Benjamin was
               chosen “Rookie of the Year”, finishing 4th in the Brazilian
@@ -77,28 +76,41 @@ const About = () => {
               finished second in the Brazilian National Tour. Benjamin was also
               awarded Best Spiker and Best Blocker of the Tour in 2002.
             </Paragraph>
+          </div>
+        </div>
 
-            <Paragraph>
-              Benjamin & Marcio were the first team from Brazil to qualify for
-              the 2004 Olympic Games in Athens, where they finished 9th after a
-              disappointing defeat to the Swiss team Martin & Paul Laciga.
-            </Paragraph>
+        <div className={s.about}>
+          <div className={`${s.container} ${s.containerPrimary}`}>
+            <div className={s.textContainer}>
+              <Paragraph>
+                Benjamin & Marcio were the first team from Brazil to qualify for
+                the 2004 Olympic Games in Athens, where they finished 9th after
+                a disappointing defeat to the Swiss team Martin & Paul Laciga.
+              </Paragraph>
 
-            <Paragraph>
-              Benjamin continued his international beach volleyball career
-              playing in every continent of the world and bringing victories and
-              pride to his home country, Brazil. He played the FIVB Beach
-              Volleyball Tours for impressive 13 years, with a total of 66
-              podiums and more than USD1.4M in international prizes, including a
-              silver medal at the FIVB Beach Volleyball World Tours of 2002 and
-              2003, and a bronze medal at the FIVB World Beach Volleyball
-              Championships of 2003 (World Cup).
-            </Paragraph>
+              <Paragraph>
+                Benjamin continued his international beach volleyball career
+                playing in every continent of the world and bringing victories
+                and pride to his home country, Brazil. He played the FIVB Beach
+                Volleyball Tours for impressive 13 years, with a total of 66
+                podiums and more than USD1.4M in international prizes, including
+                a silver medal at the FIVB Beach Volleyball World Tours of 2002
+                and 2003, and a bronze medal at the FIVB World Beach Volleyball
+                Championships of 2003 (World Cup).
+              </Paragraph>
 
-            <Paragraph>
-              Benjamin is father of 5 children, and currently lives with his
-              wife Mariana and stepson Bruno in Naperville, IL.
-            </Paragraph>
+              <Paragraph>
+                Benjamin is father of 5 children, and currently lives with his
+                wife Mariana and stepson Bruno in Naperville, IL.
+              </Paragraph>
+            </div>
+            <Image
+              className={s.image}
+              src="/about/about2.jpg"
+              width={300}
+              height={300}
+              alt="Benjamin Picture"
+            />
           </div>
         </div>
       </section>
