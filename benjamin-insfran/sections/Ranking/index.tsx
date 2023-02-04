@@ -4,27 +4,36 @@ import { Card } from "./Card";
 import s from "./styles.module.scss";
 import data from "../../db/ranking-fivb.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const Ranking = () => {
   return (
     <section className={s.section}>
       <div className={s.primaryContainer}>
-        <Title tag="h2">FIVB Official Ranking</Title>
-        <div>
-          <Paragraph>
-            The Volleyball International Federation - FIVB is the entity
-            responsible for the regulation of all modalities of volleyball in
-            the world. It keeps individualized public records of players of all
-            nationalities who reach international relevance.
-          </Paragraph>
+        <div className={s.textContainer}>
+          <Title tag="h2">FIVB Official Ranking</Title>
+          <div>
+            <Paragraph>
+              The Volleyball International Federation - FIVB is the entity
+              responsible for the regulation of all modalities of volleyball in
+              the world. It keeps individualized public records of players of
+              all nationalities who reach international relevance.
+            </Paragraph>
 
-          <Paragraph>
-            To illustrate the magnitude of Benjamin`s achievements in his
-            career, the chart below compiles and compares his FIVB records
-            (prizes and podiums) to the records of the US beach volleyball most
-            prominent players of his and younger generations.
-          </Paragraph>
+            <Paragraph>
+              To illustrate the magnitude of Benjamin`s achievements in his
+              career, the chart below compiles and compares his FIVB records
+              (prizes and podiums) to the records of the US beach volleyball
+              most prominent players of his and younger generations.
+            </Paragraph>
+          </div>
         </div>
+        <Image
+          src="/ranking/photo.png"
+          alt="Benjamin on the podium"
+          width={100}
+          height={100}
+        />
       </div>
 
       <ul className={s.cardList}>
